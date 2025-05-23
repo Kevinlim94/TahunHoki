@@ -4,7 +4,7 @@
 
 
 
-<!DOCTYPE html>
+
 <html amp lang="en" i-amphtml-binding i-amphtml-layout i-amphtml-no-boilerplate transformed="self;v=1">
   <head>
     <meta charset="utf-8">
@@ -3923,7 +3923,7 @@
     <title>TAHUNHOKI || KOLEKSI GAME YANG LUAS DAN BERKUALITAS</title>
 	<meta name="google-site-verification" content="1RUiafCuvW0OMF_m9mby-WrUrbonfReN2-1mWjHj76Q" />
   </head>
-  <body id="ss-amp" class="template-product" [class]="searchDrawerOpened ? 'js-drawer-open js-drawer-open-top template-product' : 'template-product'" data-amp-auto-lightbox-disable i-amphtml-binding>
+
     <a class="in-page-link visually-hidden skip-link" href="#MainContent">Skip to content</a>
     <amp-sidebar id="amp-sidebar" layout="nodisplay" side="left" class="i-amphtml-layout-nodisplay" hidden="hidden" i-amphtml-layout="nodisplay">
       <amp-state id="sidebar_opened" class="i-amphtml-layout-container" i-amphtml-layout="container">
@@ -3967,7 +3967,7 @@
       <div class="announcement-bar__message"><img style="height: 60px;" src="https://tahunhoki.dataklmsad903.site/images/setting-logo/1/P0kVNr2kzSRqCUJk.png" alt="TAHUNHOKI"></div>
     </a>
     <div id="shopify-section-header" class="shopify-section">
-      <div id="SearchDrawerOverlay" hidden tabindex="-1" role="button" [hidden]="!searchDrawerOpened" on="tap:AMP.setState({ search: { query: '' }, searchSuggest: null, searchDrawerOpened: false, searchQuery: undefined}), predictive-search--drawer__form.clear" i-amphtml-binding></div>
+      
       <div id="SearchDrawer" class="search-bar drawer drawer--top" role="dialog" aria-label="Search" data-predictive-search-drawer>
         <div class="search-bar__interior">
           <div class="search-form__container" data-search-form-container>
@@ -4112,7 +4112,7 @@
             </div>
           </div>
           <nav class="grid__item medium-up--one-half small--hide" id="AccessibleNav" role="navigation">
-            <div on="tap:AMP.setState({ siteNav: { opened: false }})" class="site-nav-overlay" [class]="siteNav.opened ? 'site-nav-overlay opened' : 'site-nav-overlay'" role="button" tabindex="0" i-amphtml-binding></div>
+
             <ul class="site-nav list--inline" id="SiteNav">
                <li>
                 <a href="https://tahunhoki.land/" rel="nofollow noopener" target="_blank" class="site-nav__link site-nav__link--main">
@@ -4338,7 +4338,7 @@
                           }
                         </script>
                       </amp-state>
-                      <dl class="price price--on-sale" [class]="+s4159028691059sproductTemplatesp.compareAtPriceRaw > +s4159028691059sproductTemplatesp.priceRaw ? 'price price--on-sale' : 'price'" data-price i-amphtml-binding>
+                
                         <div class="price__vendor">
                           <dt>
                             <span class="visually-hidden">Vendor</span>
@@ -4351,7 +4351,7 @@
                               <span class="visually-hidden visually-hidden--inline">Regular price</span>
                             </dt>
                             <dd>
-                              <span class="price-item price-item--regular" data-regular-price [text]="s4159028691059sproductTemplates.a ? (+s4159028691059sproductTemplatesp.priceRaw ? s4159028691059sproductTemplatesp.price : s4159028691059sproductTemplatesp.price) : 'Sold out'" i-amphtml-binding> $10.00 </span>
+                           
                             </dd>
                           </div>
                           <div class="price__sale">
@@ -4385,9 +4385,7 @@
                       </dl>
                     </div>
                     <amp-bind-macro id="layawayMoney" arguments="str" expression="'${{amount}}'.replace('{{amount}}', str)" class="i-amphtml-layout-container" i-amphtml-layout="container"></amp-bind-macro>
-                    <div class="shrff-layaway-container" [hidden]="!s4159028691059sproductTemplatesp.priceRaw" i-amphtml-binding>
-                      <div class="shrff-layaway__text-wrapper">
-                        <p class="text"> Pay in 4 interest-free installments of <span class="nowrap shrff-layaway__price" [text]="layawayMoney((+(s4159028691059sproductTemplatesp.priceRaw) / 400).toFixed(2).replace('.00', ''))" i-amphtml-binding>$22.50</span> with <span style="color: #262323; display: inline-block;
+                    
     vertical-align: middle; margin-left:1px;" class="pace_multi-products_logo-text">
                             <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" class="shop-pay-logo" viewBox="0 0 424 102" fill="none" style="height: 14px;
     width: 59px;">
@@ -4425,12 +4423,7 @@
                        s4159028691059sproductTemplatevariantSelected: true
                        
                        }),change-variant-placeholder.submit" name="option-1" id="option-1" i-amphtml-layout="container">
-                            <div [class]="s4159028691059sproductTemplateid('ss', 'SM') ? 'ss-product-option-button product-option-disabled' : 'ss-product-option-button'" class="ss-product-option-button" option="SM" i-amphtml-binding> SM </div>
-                            <div [class]="s4159028691059sproductTemplateid('ss', 'MD') ? 'ss-product-option-button product-option-disabled' : 'ss-product-option-button'" class="ss-product-option-button" option="MD" i-amphtml-binding> MD </div>
-                            <div [class]="s4159028691059sproductTemplateid('ss', 'LG') ? 'ss-product-option-button product-option-disabled' : 'ss-product-option-button'" class="ss-product-option-button" option="LG" i-amphtml-binding> LG </div>
-                            <div [class]="s4159028691059sproductTemplateid('ss', 'XL') ? 'ss-product-option-button product-option-disabled' : 'ss-product-option-button'" class="ss-product-option-button product-option-disabled" option="XL" i-amphtml-binding> XL </div>
-                            <div [class]="s4159028691059sproductTemplateid('ss', '2XL') ? 'ss-product-option-button product-option-disabled' : 'ss-product-option-button'" class="ss-product-option-button product-option-disabled" option="2XL" i-amphtml-binding> 2XL </div>
-                            <div [class]="s4159028691059sproductTemplateid('ss', '3XL') ? 'ss-product-option-button product-option-disabled' : 'ss-product-option-button'" class="ss-product-option-button" option="3XL" i-amphtml-binding> 3XL </div>
+                            
                           </amp-selector>
                         </div>
                       </div>
@@ -4452,8 +4445,7 @@
                        }),change-variant-placeholder.submit" name="option-2" id="option-2" i-amphtml-layout="container">
                             <div data-product-swatch [class]="s4159028691059sproductTemplateisd('Grey') ? 'ss-product-option-button product-option-disabled' : 'ss-product-option-button'" class="ss-product-option-button product-option-disabled" option="Grey" i-amphtml-binding>
                              
-                            </div>
-                            <div data-product-swatch selected="selected" [class]="s4159028691059sproductTemplateisd('Mossy Oak') ? 'ss-product-option-button product-option-disabled' : 'ss-product-option-button'" class="ss-product-option-button" option="Mossy Oak" i-amphtml-binding>
+                            
                              
                             </div>
                           </amp-selector>
